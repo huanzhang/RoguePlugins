@@ -1,0 +1,9 @@
+Archarodim:
+	- Convert a few "errors" into warnings to avoid unnecessary reports
+	- Only trigger a "friendly healer under attack" alert if the damage is higher than the 'heal threshold'
+	- - Add configuration controls to manage existing 'name to custom marks associations' (view, change, clear) - Fixes and improvement to custom marker UI.
+	- Added /hhtd ShowGUI command (in addition to the existing /hhtdg)
+	Just so that it appears when typing /hhtd because otherwise people may think there is none... (unless they read the doc)
+	- New module: CustomMarks - Allow users to set persistent custom marks on targets (only seen by the user) - (type /HHTDG)
+	- Move HHTD healer marker texture reference to a more specific sub-table (plate.HHTD.NPH)
+	- Add an option to swap friends and foes symbols
